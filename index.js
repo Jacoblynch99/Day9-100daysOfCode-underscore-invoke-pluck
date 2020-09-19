@@ -12,9 +12,9 @@ const strObj = [
   { suffix: "Commander", name: "Sheppard" },
 ]
 
-const sortedArr = _.invoke(numArr, "sort") // returns given list with whatever modifications applied to it, like: "sort", "join", "toUpperCase". This method does change the original data.
+const sortedArr = _.invoke(numArr, "sort") // Returns given list with whatever modifications applied to it, like: "sort", "join", "toUpperCase". This method does change the original data.
 
-const nameArr = _.pluck(strObj, "name") // returns an array of specified key/value pair from an object. This method does not change the original data.
+const nameArr = _.pluck(strObj, "name") // Returns an array of specified key/value pair from an object. This method does not change the original data.
 
 console.log(`Underscore Data:`, sortedArr)
 console.log(`Original Data:`, numArr)
